@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Payment Gateway</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- Razorpay Checkout -->
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+</head>
+
+<body class="bg-gray-100 min-h-screen flex items-center justify-center">
+
+    <div class="w-full max-w-md bg-white p-8 rounded-xl shadow-lg">
+        <h1 class="text-2xl font-bold text-gray-800">
+            Mini Payment Gateway
+        </h1>
+
+        <p class="mt-4 text-gray-600">
+            Product: Wireless Headphones
+        </p>
+
+        <p class="mt-2 text-xl font-semibold">
+            Price: ₹500
+        </p>
+
+        <button
+            id="pay"
+            type="button"
+            class="mt-6 w-full bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700 disabled:opacity-50 disabled:cursor-not-allowed"
+        >
+            Pay Now
+        </button>
+
+        <p id="message" class="mt-4 text-center text-sm" role="status"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
