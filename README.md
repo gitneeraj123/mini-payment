@@ -246,7 +246,3 @@ Test successful payments, failed payments, and checkout cancellation separately.
 
 This is a learning project intended for development and testing. It is not a production-ready payment system. Production use requires additional security, monitoring, error handling, and payment lifecycle management.
 
-## 👨‍💻 Author
-
-**Neeraj Bhayal**
-
